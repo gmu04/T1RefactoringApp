@@ -14,7 +14,7 @@
 		F72BA21427DFA6F90052AFE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F72BA21327DFA6F90052AFE0 /* Assets.xcassets */; };
 		F72BA21727DFA6F90052AFE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F72BA21527DFA6F90052AFE0 /* LaunchScreen.storyboard */; };
 		F72BA22327DFA7490052AFE0 /* Prime.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72BA22227DFA7490052AFE0 /* Prime.swift */; };
-		F72BA22B27DFA79E0052AFE0 /* T1RefactoringAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72BA22A27DFA79E0052AFE0 /* T1RefactoringAppTests.swift */; };
+		F72BA22B27DFA79E0052AFE0 /* PrimeClassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72BA22A27DFA79E0052AFE0 /* PrimeClassTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,7 @@
 		F72BA21827DFA6F90052AFE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F72BA22227DFA7490052AFE0 /* Prime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prime.swift; sourceTree = "<group>"; };
 		F72BA22827DFA79E0052AFE0 /* T1RefactoringAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = T1RefactoringAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F72BA22A27DFA79E0052AFE0 /* T1RefactoringAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = T1RefactoringAppTests.swift; sourceTree = "<group>"; };
+		F72BA22A27DFA79E0052AFE0 /* PrimeClassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeClassTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,7 +127,7 @@
 		F72BA22927DFA79E0052AFE0 /* T1RefactoringAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				F72BA22A27DFA79E0052AFE0 /* T1RefactoringAppTests.swift */,
+				F72BA22A27DFA79E0052AFE0 /* PrimeClassTests.swift */,
 			);
 			path = T1RefactoringAppTests;
 			sourceTree = "<group>";
@@ -244,7 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F72BA22B27DFA79E0052AFE0 /* T1RefactoringAppTests.swift in Sources */,
+				F72BA22B27DFA79E0052AFE0 /* PrimeClassTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
