@@ -2,7 +2,10 @@
 
 import Foundation
 
+
 class Prime {
+	
+	/*
 	static var val:Int = 0
 	static var res:[Int] = []
 	static var start: Int = 0
@@ -24,5 +27,35 @@ class Prime {
 	
 	static func incrementStart() {
 		start += 1
+	}
+ 	*/
+	
+	
+	/**
+	 Returns divider numbers array of the given number.
+	 - Parameter num: given number
+	 - Returns: divider numbers array
+	 
+	 Edge cases:
+	 - given number is required above 1
+	 */
+	static func calc(_ number: Int) -> [Int] {
+		guard number > 1 else { return [] }
+
+		var value = number
+		var arrOfDividers = [Int]()
+		var currentDivider = 2
+		
+		while value > 1 {
+			if value % currentDivider == 0 {
+				arrOfDividers.append(currentDivider)
+				
+				//loop termination statement
+				value /= currentDivider
+			}else{
+				currentDivider += 1
+			}
+		}
+		return arrOfDividers
 	}
 }
