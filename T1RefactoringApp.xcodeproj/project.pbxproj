@@ -84,7 +84,6 @@
 				F72BA22127DFA7220052AFE0 /* Storyboards */,
 				F72BA22027DFA71B0052AFE0 /* Models */,
 				F72BA21E27DFA7020052AFE0 /* ViewControllers */,
-				F72BA20E27DFA6F70052AFE0 /* ViewController.swift */,
 			);
 			path = T1RefactoringApp;
 			sourceTree = "<group>";
@@ -92,6 +91,7 @@
 		F72BA21E27DFA7020052AFE0 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				F72BA20E27DFA6F70052AFE0 /* ViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
