@@ -32,7 +32,7 @@ class Prime {
 	
 	
 	/**
-	 Returns divider numbers array of the given number.
+	 Returns the array of divider numbers of the given number.
 	 - Parameter num: given number
 	 - Returns: divider numbers array
 	 
